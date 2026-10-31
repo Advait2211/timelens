@@ -8,10 +8,11 @@ website and per window, to the second. All data stays on your Mac.
 ## Download
 
 Get the latest `.dmg` from **[Releases](../../releases/latest)**. Open it and drag TimeLens into
-Applications. Requires **macOS 15 (Sequoia) or later**.
+Applications. Requires **macOS 15 (Sequoia) or later** on an **Apple Silicon** Mac.
 
-> **First launch:** TimeLens is ad-hoc signed, not notarized by Apple, so macOS will block it the
-> first time. Right-click the app → **Open** → **Open**, or run:
+> **First launch:** TimeLens is ad-hoc signed, not notarized by Apple, so macOS blocks it the
+> first time. Open it once, then go to System Settings → Privacy & Security, scroll down and
+> click **Open Anyway**. Or skip that with:
 >
 > ```sh
 > xattr -dr com.apple.quarantine /Applications/TimeLens.app
