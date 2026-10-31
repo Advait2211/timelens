@@ -1,0 +1,19 @@
+# SwiftPM / build output
+.build/
+build/
+.swiftpm/
+Package.resolved
+*.dmg
+
+# Xcode (if the package is ever opened in it)
+*.xcodeproj
+*.xcworkspace
+xcuserdata/
+DerivedData/
+
+# Local databases (real data lives in ~/Library/Application Support/TimeLens)
+*.sqlite
+*.sqlite-*
+
+# macOS
+.DS_Store

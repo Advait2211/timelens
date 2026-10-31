@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>CFBundleIdentifier</key>
+    <string>com.advait.timelens</string>
+    <key>CFBundleName</key>
+    <string>TimeLens</string>
+    <key>CFBundleDisplayName</key>
+    <string>TimeLens</string>
+    <key>CFBundleExecutable</key>
+    <string>TimeLens</string>
+    <key>CFBundleIconFile</key>
+    <string>AppIcon</string>
+    <key>CFBundlePackageType</key>
+    <string>APPL</string>
+    <key>CFBundleShortVersionString</key>
+    <string>1.0</string>
+    <key>CFBundleVersion</key>
+    <string>1</string>
+    <key>LSMinimumSystemVersion</key>
+    <string>15.0</string>
+    <key>LSApplicationCategoryType</key>
+    <string>public.app-category.productivity</string>
+    <key>LSUIElement</key>
+    <true/>
+    <key>NSHighResolutionCapable</key>
+    <true/>
+    <key>NSAppleEventsUsageDescription</key>
+    <string>TimeLens reads the address of the tab you're looking at so it can show time per website, not just per browser. Nothing leaves your Mac.</string>
+    <key>NSHumanReadableCopyright</key>
+    <string>Built by Advait Desai</string>
+</dict>
+</plist>
